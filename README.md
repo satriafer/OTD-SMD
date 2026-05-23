@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Web Saya</title>
+    <title>OTD MONITORING</title>
 </head>
 <body>
-    <h1>Data dari Google Apps Script:</h1>
+    <h1>SFE305</h1>
     <div id="hasil">Memuat...</div>
 
     <script>
-        const url = 'URL_APPS_SCRIPT_ANDA'; // Masukkan URL GAS Anda di sini
+        const url = 'https://script.google.com/macros/s/AKfycbw-pINJCc6F6RByg4Y1rJrT_bD4LT1ck1vkhYqSgEe0ZCPhhBEfOoRqt8pj4Ybnz-RO/exec'; // Masukkan URL GAS Anda di sini
         fetch(url)
             .then(response => response.json())
             .then(data => {
